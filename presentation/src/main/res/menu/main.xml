@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/inbox"
+        android:title="@string/drawer_inbox"
+        android:visible="true"
+        app:showAsAction="collapseActionView" />
+
+    <item
+        android:id="@+id/archived"
+        android:title="@string/drawer_archived"
+        android:visible="true"
+        app:showAsAction="collapseActionView" />
+
+    <item
+        android:id="@+id/scheduled"
+        android:title="@string/drawer_scheduled"
+        android:visible="true"
+        app:showAsAction="collapseActionView" />
+
+    <item
+        android:id="@+id/blocking"
+        android:title="@string/drawer_blocking"
+        android:visible="true"
+        app:showAsAction="collapseActionView" />
+
+    <item
+        android:id="@+id/settings"
+        android:title="@string/drawer_settings"
+        android:visible="true"
+        app:showAsAction="collapseActionView" />
+
+    <item
+        android:id="@+id/archive"
+        android:icon="@drawable/ic_archive_white_24dp"
+        android:title="@string/main_menu_archive"
+        android:visible="false"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/unarchive"
+        android:icon="@drawable/ic_inbox_black_24dp"
+        android:title="@string/main_menu_unarchive"
+        android:visible="false"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/delete"
+        android:icon="@drawable/ic_delete_white_24dp"
+        android:title="@string/main_menu_delete"
+        android:visible="false"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/add"
+        android:icon="@drawable/ic_person_add_black_24dp"
+        android:title="@string/main_menu_add_contact"
+        android:visible="false"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/pin"
+        android:icon="@drawable/ic_pin_black_24dp"
+        android:title="@string/main_menu_pin"
+        android:visible="false"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/unpin"
+        android:icon="@drawable/ic_pin_black_24dp"
+        android:title="@string/main_menu_unpin"
+        android:visible="false"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/read"
+        android:icon="@drawable/ic_drafts_black_24dp"
+        android:title="@string/main_menu_read"
+        android:visible="false"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/unread"
+        android:icon="@drawable/ic_markunread_black_24dp"
+        android:title="@string/main_menu_unread"
+        android:visible="false"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/block"
+        android:icon="@drawable/ic_block_white_24dp"
+        android:title="@string/main_menu_block"
+        android:visible="false"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/lock"
+        android:title="Lock"
+        android:visible="false"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/unlock"
+        android:title="UnLock"
+        android:visible="false"
+        app:showAsAction="ifRoom" />
+
+</menu>

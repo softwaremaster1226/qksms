@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/vCardBackground"
+        android:layout_width="wrap_content"
+        android:layout_height="56dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/rounded_rectangle_outline_4dp"
+        android:paddingEnd="8dp">
+
+        <ImageView
+            android:id="@+id/audio"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/ic_play_circle_filled_white_24dp"
+            android:tint="?android:attr/textColorSecondary"
+            app:layout_constraintBottom_toBottomOf="@id/vCardBackground"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/vCardBackground" />
+
+        <TextView
+            android:id="@+id/filename"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toEndOf="@id/audio"
+            app:layout_constraintBottom_toBottomOf="@id/vCardBackground"
+            app:layout_constraintTop_toTopOf="@id/vCardBackground" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ImageView
+        android:id="@+id/detach"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_gravity="top|end"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="2dp"
+        android:background="@drawable/circle"
+        android:backgroundTint="?attr/bubbleColor"
+        android:src="@drawable/ic_cancel_black_24dp"
+        android:tint="?android:attr/textColorSecondary" />
+
+</FrameLayout>
